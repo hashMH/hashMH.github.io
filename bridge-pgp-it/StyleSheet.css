@@ -1,0 +1,1812 @@
+﻿
+body
+{
+	width: 0 auto;
+	background: white;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.upper
+{
+	background: #6D0679;
+	width: 1351px;
+	height: 119px;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+
+.logo
+{
+	width: 95%;
+	height: 95px;
+}
+
+.headerleft { float:left; }
+
+table
+{
+	border-collapse: collapse;
+}
+table, td, th
+{
+	border: 2px solid white;
+}
+td
+{
+	background-color: #f2f2f2;
+}
+.tablestyle
+{
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	margin: -55px;
+	height: 100px;
+}
+.g
+{
+	margin-left: 380px;
+	width: 35%;
+	float: left;
+	height: 100px;
+}
+.content
+{
+	width: 33%;
+	height: 100px;
+	float: left;
+}
+.ht
+{
+	paddinn-top: 10;
+	width: 33%;
+	height: 100px;
+	float: left;
+}
+.heading
+{
+	font-family: Georgia;
+	font-size: 28px;
+	font-weight: 300;
+	color: Red;
+	margin-top: 25px;
+	text-align: left;
+}
+.belowheading
+{
+	font-family: Georgia;
+	font-size: 20px;
+	font-weight: 300;
+	color: #2A55FF;
+	margin-top: -25px;
+	margin-left: -200px;
+}
+.rightimg
+{
+	width: 40%;
+	height: 100px;
+	margin-top: 0px;
+	float: right;
+}
+.outerwrap
+{
+	/*     width:1150px;*/
+	margin-left: -8px;
+	width: 1351px;
+	height: 480px;
+	background: url('images/bg.jpg') repeat-x;
+}
+.middle
+{
+	width: 1150px;
+	height: 444px;
+	background: white;
+}
+
+.wrap
+{
+	width: 1150px;
+	height: 372px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 99px;
+}
+.left
+{
+	width: 800px;
+	float: left;
+	height: 300px;
+}
+.banner
+{
+	width: 490px;
+	float: left;
+	height: 330px;
+	margin-top: 7px;
+	text-align:left;
+}
+
+.banner h3 { color:#FFFFFF; font-size:24px; margin:0px; margin-top:40px; }
+
+.banner h2 { color:#FFFFFF; font-size:33px; margin:0px; margin-top:5px; }
+
+.banner h1 { background:#6d0679; color:#FFFFFF; font-size:26px; padding:9px; font-family:calibri; margin-left:-5px; margin-top:15px;}
+
+.banner h5 { color:#FFFFFF; font-size:20px; margin-top:94px;}
+
+.banner h2 span { font-size:24px;}
+.belowbanner
+{
+	width: 795px;
+	height: 150px;
+	float: left;
+	margin-top: -65px;
+}
+.right
+{
+	width: 308px;
+	height: 366px;
+	float: left;
+	margin-top: 1px;
+}
+.form
+{
+	width: 323px;
+	height: 458px;
+	background: white;
+	margin-left: 18px;
+	margin-top: -1px;
+	float: left;
+	background: white;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-color: #f2f2f2;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.middle
+{
+	margin-top: inherit;
+}
+
+.tesemonial
+{
+	width: 338px;
+	background: #f2f2f2;
+	margin-top: -30px; /* margin-left: 800px; */
+	float: right;
+	margin-right: 97px;
+	position: absolute;
+}
+
+.formhead
+{
+	width: 273px;
+	height: 34px;
+	font-family: Arial;
+	font-size: 14px;
+	color: white;
+	float: left;
+	margin-top: 8px; /* border-color: white; */ /* border-style: solid; */
+	border-width: 2px; /* background: #E1E1E1; */
+	margin-left: 20px; /* padding-top: 0px; */
+	border-radius: 10px;
+}
+
+
+.formcontent
+{
+	width: 294px;
+	height: 340px;
+	margin-top: 1px;
+	margin-left: 17px;
+	float: left;
+}
+.input
+{
+	width: 250px;
+	height: 17px;
+	margin-top: 3px;
+	color: #000000; /*border-color:#D8D8D8;     border-style:solid;     border-width:2px;*/
+	background: white; /* box-shadow: 0 3px 3px #670167; */
+	border: none;
+	background: white; /* color: black; */
+	padding: 5px;
+	font-size: 14px;
+	border: solid 2px #f2f2f2;
+	font-family: Arial;
+}
+
+.input1
+{
+	width: 250px;
+	height: 17px;
+	margin-top: 3px;
+	color: aliceblue; /*border-color:#D8D8D8;     border-style:solid;     border-width:2px;*/
+	background: white; /* box-shadow: 0 3px 3px #670167; */
+	border: none;
+	background: #323031; /* color: black; */
+	padding: 5px;
+	font-size: 14px;
+	border: solid 1px #7A7A7A;
+	font-family: Arial;
+}
+
+.select
+{
+	/* box-shadow: 0 3px 3px  #670167; */
+	width: 250px;
+	height: 31px;
+	margin-top: -7px;
+	background: #f2f2f2;
+	width: 259px;
+	height: 31px;
+	margin-top: -9px;
+	color: #000000; /*border-color:#D8D8D8;      border-style:solid;      border-width:2px;*/
+	background: #f2f2f2; /* box-shadow: 0 3px 3px #670167; */
+	border: none;
+	background: #f2f2f2;
+	color: silver;
+	padding: 5px;
+	font-size: 14px;
+	border-color: #;
+	font-family: Arial;
+	border: solid 2px #dadada;
+}
+.submit
+{
+	width: 220px;
+	height: 34px;
+	background: #7C208C;
+	margin-left: -2px;
+	margin-top: 10px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	border-color: white; /* border-style: solid; */ /* border-width: 1px; */
+	font-family: Arial;
+	font-size: 13px; /* box-shadow: inset 0px 0px 51px gray; */
+}
+.submit:hover
+{
+	background: gray;
+}
+.belowform
+{
+	width: 1150px;
+	height: 419px;
+	float: left;
+	margin-top: 12px;
+}
+.rightalliances
+{
+	width: 214px;
+	height: 368px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 29px;
+	background-color: white;
+}
+.rightadvantages
+{
+	width: 453px;
+	height: 416px;
+	float: left;
+	margin-left: -2px;
+	margin-top: 29px;
+	background-color: white;
+}
+.outer
+{
+	width: 280;
+	height: 80px;
+	float: left;
+}
+.leftimg
+{
+	width: 70px;
+	height: 80px;
+	float: left;
+}
+.imgcontent
+{
+	width: 200px;
+	height: 80px;
+	font-family: Verdana;
+	font-size: 10px;
+	float: left;
+	color: #505050;
+	text-align: left;
+}
+
+
+
+.lefttabs
+{
+	width: 690px;
+	height: 360px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 3px;
+}
+.headings
+{
+	height: 50px;
+	font-family: Arial;
+	font-weight: 300;
+	margin-top: -20px;
+}
+.contents
+{
+	width: 250px;
+	height: 120px;
+}
+
+.lower1
+{
+	width: 100%; /*height: 32px;*/
+	float: left;
+}
+.lower
+{
+	width: 100%;
+	height: 32px;
+	float: left;
+	background-color: #505050;
+}
+.lowr
+{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+}
+.upperslid
+{
+	width: 100%;
+	height: 32px;
+	float: left;
+	background-color: #921da0;
+}
+.footer
+{
+	padding-top: 0px;
+}
+
+#body
+{
+	width: 660px;
+	height: 295px;
+	display: block;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+#body input
+{
+	display: none;
+}
+
+
+
+#img-inner
+{
+	opacity: 0;
+	display: block;
+	position: absolute;
+	transform: scale(0);
+	-moz-transform: scale(0);
+	-webkit-transform: scale(0);
+	transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-webkit-transition: all .7s ease-in-out;
+	margin-left: -42px;
+}
+
+#img-inner img
+{
+	/* width: 100%;     height: 100%;*/
+}
+
+
+
+#img-inner:hover ~ label.sb-bignav
+{
+	opacity: 0.5;
+}
+
+label.sb-bignav:hover
+{
+	opacity: 1;
+}
+
+.sb-bignav
+{
+	width: 50px;
+	height: 35%;
+	display: none;
+	position: absolute;
+	opacity: 0;
+	z-index: 9;
+	cursor: pointer;
+	margin-left: -40px;
+	transition: opacity .2s;
+	-moz-transition: opacity .2s;
+	-webkit-transition: opacity .2s;
+}
+
+label[title="Next"]
+{
+	margin-left: 695px;
+	background: url('images/next.png') center center no-repeat;
+}
+
+label[title="Previous"]
+{
+	background: url('images/prev.png') center center no-repeat;
+}
+
+input:checked + li > #img-inner
+{
+	opacity: 1;
+	transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+input:checked + li > label
+{
+	display: block;
+}
+
+.imgdiv
+{
+	float: left;
+	display: block;
+}
+
+
+.tabwrap
+{
+	width: 930px;
+	height: 350px;
+	float: left; /*border-radius:10px;     border-color:Gray;     border-style:solid;     border-width:1px;*/
+	margin-top: 0px;
+}
+
+
+
+
+#fit
+{
+	color: white;
+	width: 187px;
+	height: 30px;
+	background: black;
+	color: white;
+	float: left;
+	cursor: pointer;
+}
+
+
+#st
+{
+	color: white;
+	width: 187px;
+	height: 30px;
+	background: purple;
+	color: white;
+	float: left;
+	cursor: pointer;
+	margin-top: 13px;
+}
+
+
+
+#tt
+{
+	width: 187px;
+	height: 30px;
+	background: purple;
+	color: white;
+	float: left;
+	cursor: pointer;
+	margin-top: 13px;
+}
+#ft
+{
+	width: 187px;
+	height: 30px;
+	background: purple;
+	color: white;
+	float: left;
+	cursor: pointer;
+	margin-top: 13px;
+}
+
+
+.firstcontenttab
+{
+	height: 300px;
+	float: left;
+	padding-right: 10px;
+	margin-top: 2px;
+}
+.secondcontenttab
+{
+	height: 314px;
+	float: left;
+	margin-top: 2px;
+	padding-right: 10px;
+}
+.thirdcontenttab
+{
+	height: 314px;
+	float: left;
+	margin-top: 2px;
+	padding-right: 10px;
+}
+.fourthcontenttab
+{
+	height: 314px;
+	float: left;
+	margin-top: 2px;
+	padding-right: 10px;
+}
+.list1
+{
+	font-family: Arial;
+	font-size: 13px;
+	color: #505050;
+	list-style-image: url('images/checkblue.png');
+	text-align: left;
+	margin-top: 14px;
+	line-height: 33px;
+}
+list2
+{
+	font-family: Arial;
+	font-size: 13px;
+	color: #505050;
+	list-style-type: circle;
+	text-align: left;
+	margin-top: 14px;
+	line-height: 33px;
+}
+
+
+
+
+
+/*Responsive Css Starts*/
+
+/* Tabled Portrait */
+@media screen and (max-width:980px)
+{
+
+
+	.outerwrap
+	{
+		width: 100%;
+		height: 617px;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+	}
+
+	.upper
+	{
+		width: 100% !important;
+		margin-top: -8px !important;
+		margin-left: 0% !important;
+	}
+	.belowrecruiters
+	{
+		width: 100%;
+		margin-left: 0px;
+		height: auto;
+	}
+	.lower
+	{
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 15px;
+	}
+	.logo
+	{
+		margin-left: 15% !important;
+		text-align: center;
+		width: 100% !important;
+		height: auto !important;
+	}
+
+	.logo img
+	{
+		width: 200% !important;
+		margin-left: 0px !important;
+		margin-top: 1% !important;
+	}
+
+	.rightadvantages, .flexslider
+	{
+		display: none;
+	}
+	.rightadvantages h2
+	{
+		width: 100% !important;
+	}
+	.advantagestitle
+	{
+		width: 100% !important;
+	}
+	.advantagescontent
+	{
+		height: auto !important;
+		width: 100% !important;
+	}
+	.advantagescontent ul
+	{
+		width: 92% !important;
+	}
+
+	.wrap
+	{
+		width: 100% !important;
+		height: 533px;
+		float: left;
+		margin-top: 0% !important;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+	}
+
+	.right
+	{
+		margin-top: 1% !important;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+		width: 100% !important;
+	}
+	.left
+	{
+		display: none;
+	}
+	.lefttabs
+	{
+		display: none;
+	}
+	.rightalliances
+	{
+		display: none;
+	}
+	.rightimg
+	{
+		display: block !important;
+		width: 100% !important;
+		height: auto !important;
+		margin-top: 0px;
+		float: none !important;
+	}
+
+	.rightimg1
+	{
+		line-height: 20px !important;
+	}
+
+	.rightimg i
+	{
+		font-size: 75% !important;
+	}
+	.rightimg b
+	{
+		font-size: 75% !important;
+	}
+	.rightimg p
+	{
+		margin-top: 1px !important;
+	}
+
+	.content
+	{
+		display: none;
+	}
+	body
+	{
+		/*overflow-x: hidden !important;*/
+		background: none repeat scroll 0% 0% #FFF;
+	}
+	.form
+	{
+		height: 458px !important;
+		width: 89% !important;
+		margin-left: 5% !important;
+	}
+	.formhead
+	{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.formhead h2
+	{
+		width: 100%;
+		font-size: 16px;
+	}
+	.formcontent
+	{
+		width: 100% !important;
+	}
+	.formcontent iframe
+	{
+		width: 96% !important;
+	}
+	.pure-input-1-5
+	{
+		width: 84% !important;
+	}
+	.pure-button-primary
+	{
+		margin: 15px 5px !important;
+	}
+	.selecttag
+	{
+		width: 87% !important;
+	}
+	#divprg
+	{
+		display: block;
+		width: 100% !important;
+		height: auto !important;
+		position: relative;
+		float: none !important;
+		margin-left: 0px !important;
+	}
+	.contantMain
+	{
+		width: 100% !important;
+		margin: auto;
+		position: relative;
+	}
+	.divProgramDetails
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+
+	.style15
+	{
+		font-size: 100% !important;
+		width: 100% !important;
+	}
+
+	.style16
+	{
+		font-size: 100% !important;
+	}
+	.style17
+	{
+		font-size: 100% !important;
+	}
+
+	.divEligibility
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		display: block;
+	}
+
+	.divEligibilitycontant
+	{
+		width: 100% !important;
+		height: auto !important;
+	}
+	.divAdvantages
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+	}
+
+	.divAdvantagescon1
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+	.divAdvantagescon1 p
+	{
+		display: none !important;
+	}
+	.divAdvantagescon2
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+
+	.divAdvantagescon3
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+		margin-top: 0% !important;
+	}
+
+	.divAdvantagescon4
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+		margin-top: 0px !important;
+	}
+	#divTestmonial
+	{
+		display: none !important;
+	}
+	.lowr
+	{
+		display: none;
+	}
+
+	.form iframe
+	{
+		width: 89%;
+	}
+	.form h2
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding-left: 20px;
+		font-size: 100% !important;
+	}
+	.lower
+	{
+		width: 100% !important;
+		margin-left: 0px !important;
+		margin-top: 1% !important;
+	}
+	#footerleft1
+	{
+		display: none;
+	}
+	#footerRight1
+	{
+		display: none;
+	}
+	#divnn
+	{
+		display: block !important;
+		width: 100% !important;
+	}
+	#divnn p
+	{
+		font-size: 100% !important;
+		color: #ffffff !important;
+		margin-top: 1% !important;
+		margin-left: 1% !important;
+	}
+
+
+}
+
+
+@media screen and (max-width: 650px)
+{
+	.outerwrap
+	{
+		width: 100%;
+		height: 544px;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+	}
+
+	.upper
+	{
+		width: 100% !important;
+		margin-top: -8px !important;
+		margin-left: 0% !important;
+	}
+	.belowrecruiters
+	{
+		width: 100%;
+		margin-left: 0px;
+		height: auto;
+	}
+	.lower
+	{
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 15px;
+	}
+	.logo
+	{
+		margin-left: 3% !important;
+		text-align: center;
+		width: 100% !important;
+	}
+
+	.logo img
+	{
+		width: 150% !important;
+		margin-top: 1% !important;
+	}
+
+
+	.rightadvantages, .flexslider
+	{
+		display: none;
+	}
+	.rightadvantages h2
+	{
+		width: 100% !important;
+	}
+	.advantagestitle
+	{
+		width: 100% !important;
+	}
+	.advantagescontent
+	{
+		height: auto !important;
+		width: 100% !important;
+	}
+	.advantagescontent ul
+	{
+		width: 92% !important;
+	}
+
+	.wrap
+	{
+		width: 100% !important;
+		height: 538px;
+		float: left;
+		margin-top: 0% !important;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+	}
+
+	.right
+	{
+		margin-top: 1% !important;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+		width: 100% !important;
+	}
+	.left
+	{
+		display: none;
+	}
+	.lefttabs
+	{
+		display: none;
+	}
+	.rightalliances
+	{
+		display: none;
+	}
+	.rightimg
+	{
+		display: block !important;
+		width: 100% !important;
+		height: auto !important;
+		margin-top: 0px;
+		float: none !important;
+	}
+
+	.rightimg1
+	{
+		line-height: 20px !important;
+	}
+	.content
+	{
+		display: none;
+	}
+	body
+	{
+		/*overflow-x: hidden !important;*/
+		background: none repeat scroll 0% 0% #FFF;
+	}
+	.form
+	{
+		height: 458px !important;
+		width: 89% !important;
+		margin-left: 5% !important;
+	}
+	.formhead
+	{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.formhead h2
+	{
+		width: 100%;
+		font-size: 16px;
+	}
+	.formcontent
+	{
+		width: 100% !important;
+	}
+	.formcontent iframe
+	{
+		width: 96% !important;
+	}
+	.pure-input-1-5
+	{
+		width: 84% !important;
+	}
+	.pure-button-primary
+	{
+		margin: 15px 5px !important;
+	}
+	.selecttag
+	{
+		width: 87% !important;
+	}
+	#divprg
+	{
+		display: block;
+		width: 100% !important;
+		height: auto !important;
+		position: relative;
+		float: none !important;
+		margin-left: 0px !important;
+	}
+	.contantMain
+	{
+		width: 100% !important;
+		margin: auto;
+		position: relative;
+	}
+	.divProgramDetails
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+
+	.style15
+	{
+		font-size: 100% !important;
+		width: 100% !important;
+	}
+
+	.style16
+	{
+		font-size: 100% !important;
+	}
+	.style17
+	{
+		font-size: 100% !important;
+	}
+
+	.divEligibility
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		display: block;
+	}
+
+	.divEligibilitycontant
+	{
+		width: 100% !important;
+		height: auto !important;
+	}
+	.divAdvantages
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+	}
+
+	.divAdvantagescon1
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+	.divAdvantagescon1 p
+	{
+		display: none !important;
+	}
+	.divAdvantagescon2
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+
+	.divAdvantagescon3
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+		margin-top: 0% !important;
+	}
+
+	.divAdvantagescon4
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+		margin-top: 0px !important;
+	}
+	#divTestmonial
+	{
+		display: none !important;
+	}
+	.lowr
+	{
+		display: none;
+	}
+
+	.form iframe
+	{
+		width: 89%;
+	}
+	.form h2
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding-left: 20px;
+		font-size: 100% !important;
+	}
+	.lower
+	{
+		width: 100% !important;
+		margin-left: 0px !important;
+		margin-top: 1% !important;
+	}
+	#footerleft1
+	{
+		display: none;
+	}
+	#footerRight1
+	{
+		display: none;
+	}
+	#divnn
+	{
+		display: block !important;
+		width: 100% !important;
+	}
+	#divnn p
+	{
+		font-size: 100% !important;
+		color: #ffffff !important;
+		margin-top: 1% !important;
+		margin-left: 1% !important;
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+
+	.outerwrap
+	{
+		width: 100%;
+		height: 508px;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+	}
+
+	.upper
+	{
+		width: 100% !important;
+		margin-top: 0% !important;
+		margin-left: 0% !important;
+	}
+	.belowrecruiters
+	{
+		width: 100%;
+		margin-left: 0px;
+		height: auto;
+	}
+	.lower
+	{
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 15px;
+	}
+	.logo
+	{
+		text-align: center;
+		width: 100% !important;
+	}
+
+	.logo img
+	{
+		width: 90% !important;
+		margin-top: 1% !important;
+	}
+
+
+	.rightadvantages, .flexslider
+	{
+		display: none;
+	}
+	.rightadvantages h2
+	{
+		width: 100% !important;
+	}
+	.advantagestitle
+	{
+		width: 100% !important;
+	}
+	.advantagescontent
+	{
+		height: auto !important;
+		width: 100% !important;
+	}
+	.advantagescontent ul
+	{
+		width: 92% !important;
+	}
+
+	.wrap
+	{
+		width: 100% !important;
+		height: 516px;
+		float: left;
+		margin-top: 0% !important;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+	}
+
+	.right
+	{
+		margin-top: 1% !important;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+		width: 100% !important;
+	}
+	.left
+	{
+		display: none;
+	}
+	.lefttabs
+	{
+		display: none;
+	}
+	.rightalliances
+	{
+		display: none;
+	}
+	.rightimg
+	{
+		display: block !important;
+		width: 100% !important;
+		height: auto !important;
+		margin-top: 0px;
+		float: none !important;
+	}
+
+	.rightimg1
+	{
+		line-height: 20px !important;
+	}
+	.content
+	{
+		display: none;
+	}
+	body
+	{
+		/*overflow-x: hidden !important;*/
+		background: none repeat scroll 0% 0% #FFF;
+	}
+	.form
+	{
+		height: 458px !important;
+		width: 89%;
+		margin-left: 3% !important;
+	}
+	.formhead
+	{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.formhead h2
+	{
+		width: 100%;
+		font-size: 16px;
+	}
+	.formcontent
+	{
+		width: 100% !important;
+	}
+	.formcontent iframe
+	{
+		width: 96% !important;
+	}
+	.pure-input-1-5
+	{
+		width: 84% !important;
+	}
+	.pure-button-primary
+	{
+		margin: 15px 5px !important;
+	}
+	.selecttag
+	{
+		width: 87% !important;
+	}
+	#divprg
+	{
+		display: block;
+		width: 100% !important;
+		height: auto !important;
+		position: relative;
+		float: none !important;
+		margin-left: 0px !important;
+	}
+	.contantMain
+	{
+		width: 100% !important;
+		margin: auto;
+		position: relative;
+	}
+	.divProgramDetails
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+
+	.style15
+	{
+		font-size: 100% !important;
+		width: 100% !important;
+	}
+
+	.style16
+	{
+		font-size: 100% !important;
+	}
+	.style17
+	{
+		font-size: 100% !important;
+	}
+
+	.divEligibility
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		display: block;
+	}
+
+	.divEligibilitycontant
+	{
+		width: 100% !important;
+		height: auto !important;
+	}
+	.divAdvantages
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+	}
+
+	.divAdvantagescon1
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+	.divAdvantagescon1 p
+	{
+		display: none !important;
+	}
+	.divAdvantagescon2
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+
+	.divAdvantagescon3
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+		margin-top: 0% !important;
+	}
+
+	.divAdvantagescon4
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+		margin-top: 0px !important;
+	}
+	#divTestmonial
+	{
+		display: none !important;
+	}
+	.lowr
+	{
+		display: none;
+	}
+
+	.form iframe
+	{
+		width: 89%;
+	}
+	.form h2
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding-left: 20px;
+		font-size: 100% !important;
+	}
+	.lower
+	{
+		width: 100% !important;
+		margin-left: 0px !important;
+		margin-top: 1% !important;
+	}
+	#footerleft1
+	{
+		display: none;
+	}
+	#footerRight1
+	{
+		display: none;
+	}
+	#divnn
+	{
+		display: block !important;
+		width: 100% !important;
+	}
+	#divnn p
+	{
+		font-size: 60% !important;
+		color: #ffffff !important;
+		margin-top: 1% !important;
+		margin-left: 1% !important;
+	}
+}
+
+
+@media screen and (max-width: 280px)
+{
+	.outerwrap
+	{
+		width: 100%;
+		height: 508px;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+	}
+
+	.upper
+	{
+		width: 100% !important;
+		margin-top: -8px !important;
+		margin-left: 0% !important;
+	}
+	.belowrecruiters
+	{
+		width: 100%;
+		margin-left: 0px;
+		height: auto;
+	}
+	.lower
+	{
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 15px;
+	}
+	.logo
+	{
+		margin-left: 0px !important;
+		text-align: center;
+		width: 100% !important;
+	}
+
+	.logo img
+	{
+		width: 96% !important;
+		margin-left: 0px !important;
+		margin-top: 1% !important;
+	}
+
+
+	.rightadvantages, .flexslider
+	{
+		display: none;
+	}
+	.rightadvantages h2
+	{
+		width: 100% !important;
+	}
+	.advantagestitle
+	{
+		width: 100% !important;
+	}
+	.advantagescontent
+	{
+		height: auto !important;
+		width: 100% !important;
+	}
+	.advantagescontent ul
+	{
+		width: 92% !important;
+	}
+
+	.wrap
+	{
+		width: 100% !important;
+		height: 505px;
+		float: left;
+		margin-top: 0% !important;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+	}
+
+	.right
+	{
+		margin-top: 1% !important;
+		margin-left: 0% !important;
+		background: #6D0679 !important;
+		width: 100% !important;
+	}
+	.left
+	{
+		display: none;
+	}
+	.lefttabs
+	{
+		display: none;
+	}
+	.rightalliances
+	{
+		display: none;
+	}
+	.rightimg
+	{
+		display: block !important;
+		width: 100% !important;
+		height: auto !important;
+		margin-top: 0px;
+		float: none !important;
+	}
+	.rightimg1
+	{
+		line-height: 20px !important;
+	}
+	.content
+	{
+		display: none;
+	}
+	body
+	{
+		/*overflow-x: hidden !important;*/
+		background: none repeat scroll 0% 0% #FFF;
+	}
+	.form
+	{
+		width: 89%;
+		height: 458px !important;
+	}
+	.formhead
+	{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.formhead h2
+	{
+		width: 100%;
+		font-size: 16px;
+	}
+	.formcontent
+	{
+		width: 100% !important;
+	}
+	.formcontent iframe
+	{
+		width: 96% !important;
+	}
+	.pure-input-1-5
+	{
+		width: 84% !important;
+	}
+	.pure-button-primary
+	{
+		margin: 15px 5px !important;
+	}
+	.selecttag
+	{
+		width: 87% !important;
+	}
+	#divprg
+	{
+		display: block;
+		width: 100% !important;
+		height: auto !important;
+		position: relative;
+		float: none !important;
+		margin-left: 0px !important;
+	}
+	.contantMain
+	{
+		width: 100% !important;
+		margin: auto;
+		position: relative;
+	}
+	.divProgramDetails
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+
+	.style15
+	{
+		font-size: 100% !important;
+		width: 100% !important;
+	}
+
+	.style16
+	{
+		font-size: 100% !important;
+	}
+	.style17
+	{
+		font-size: 100% !important;
+	}
+
+	.divEligibility
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		display: block;
+	}
+
+	.divEligibilitycontant
+	{
+		width: 100% !important;
+		height: auto !important;
+	}
+	.divAdvantages
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+	}
+
+	.divAdvantagescon1
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+	.divAdvantagescon1 p
+	{
+		display: none !important;
+	}
+	.divAdvantagescon2
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+	}
+
+	.divAdvantagescon3
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+		margin-top: 0% !important;
+	}
+
+	.divAdvantagescon4
+	{
+		width: 100% !important;
+		height: auto !important;
+		float: none !important;
+		position: relative;
+		display: block;
+		margin-top: 0px !important;
+	}
+	#divTestmonial
+	{
+		display: none !important;
+	}
+	.lowr
+	{
+		display: none;
+	}
+
+	.form iframe
+	{
+		width: 89%;
+	}
+	.form h2
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding-left: 20px;
+		font-size: 100% !important;
+	}
+	.lower
+	{
+		width: 100% !important;
+		margin-left: 0px !important;
+		margin-top: 1% !important;
+	}
+	#footerleft1
+	{
+		display: none !important;
+	}
+	#footerRight1
+	{
+		display: none !important;
+	}
+	#divnn
+	{
+		display: block !important;
+		width: 100% !important;
+	}
+	#divnn p
+	{
+		font-size: 60% !important;
+		color: #ffffff !important;
+		margin-top: 1% !important;
+		margin-left: 1% !important;
+	}
+}
+
+/*Responsive Css Ends */

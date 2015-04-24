@@ -1,0 +1,55 @@
+
+.pure-input-1-5{
+   
+    width:86%;
+    border: 1px solid white;
+	background:#ffffff;
+	
+    box-shadow: 0 3px 3px gray;
+	
+    color: black;
+    font-size: 12px;
+	margin: 0px 0 7px 0px;
+    padding: 0px;
+	padding-left:5px;
+	
+    height: 25px;
+}
+
+.pure-button-primary{
+color:#fffFFF;
+background-color: #3a4751;
+border:none;
+   font-size: 1em;
+ 	width:65%;
+	
+height: 33px;
+	
+margin: 2px 30px;
+	box-shadow:none;
+
+}
+
+.pure-button-primary:hover { 
+background:#3a4759;  color:#FFFFFF;}
+
+
+.selecttag { height: 28px; width:87%; padding-top:5px; margin-bottom:10px; }
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.error_message{
+   color:#fff;
+   background-color:#e74c3c;
+   border-color:#e74c3c;
+   font-family:arial;
+   padding:10px;
+   font-size:14px;
+   border-radius:3px;
+   width:95%
+}
+.cls_mandatory{
+   border-color:#e74c3c;
+}

@@ -1,0 +1,49 @@
+body
+{
+
+	margin: 0px;
+}
+.pure-input-1-5
+{
+	margin: 6px 5px;
+	padding: 5px;
+	width: 92%;
+
+}
+
+.pure-button-primary
+{
+	color: #fff;
+	background-color: #1496d3;
+	border:none;
+	border-bottom:3px solid #0a7aaf;
+	width:96%;
+	font-size:18px;
+}
+
+
+.pure-button-primary:hover { background: #61a825; border-bottom:3px solid #56971e; color:#fff;}
+
+
+.selecttag { width:96%;}
+fieldset
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.error_message
+{
+	color: #fff;
+	background-color: #e74c3c;
+	border-color: #e74c3c;
+	font-family: arial;
+	padding: 5px;
+	font-size: 14px;
+	border-radius: 3px;
+	width: 80%;
+}
+.cls_mandatory
+{
+	border-color: #e74c3c;
+}

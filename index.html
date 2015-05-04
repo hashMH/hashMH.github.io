@@ -1,58 +1,370 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!-- templatemo 416 xenon -->
 <!--
-Author: WebThemez
-Author URL: http://webthemez.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-Note: Please use our back link in your site (webthemez.com)
+
 -->
-<!DOCTYPE HTML>
-<!--[if lt IE 7 ]> <html lang="en" class="ie ie6"> <![endif]--> 
-<!--[if IE 7 ]>	<html lang="en" class="ie ie7"> <![endif]--> 
-<!--[if IE 8 ]>	<html lang="en" class="ie ie8"> <![endif]--> 
-<!--[if IE 9 ]>	<html lang="en" class="ie ie9"> <![endif]--> 
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-<meta charset="utf-8">
-<title>Tales Designs - Coming Soon!!!</title>
-<meta name="description" content="Tales Designs Page under construction">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold"> 
-<link rel="stylesheet" type="text/css" href="comingsoon/css/styles.css">
+    <meta charset="utf-8">
+    <title>Tales Designs</title>
+    <meta name="description" content="Tales Design">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="tales_static/css/bootstrap.min.css">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="tales_static/css/font-awesome.min.css">
+    
+    <!-- Google Font -->
+    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>-->
+
+    <!-- Normailize Stylesheet -->
+    <link rel="stylesheet" href="tales_static/css/normalize.min.css">
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="tales_static/css/templatemo_style.css">
+
+    <script src="tales_static/js/vendor/modernizr-2.6.2.min.js"></script>
+	<style>
+		.rotate {
+			/* Safari */
+			-webkit-transform: rotate(-60deg);
+
+			/* Firefox */
+			-moz-transform: rotate(-60deg);
+
+			/* IE */
+			-ms-transform: rotate(-60deg);
+
+			/* Opera */
+			-o-transform: rotate(-60deg);
+
+			/* Internet Explorer */
+			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+			}
+			#bg {background:url(./tales_static/images/bg.png);}
+	</style>
 </head>
+<body>
+    <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
 
-<body id="home">
-<div id="Header">
-<div class="wrapper">
-	<h1>Tales Designs</h1>	
-	</div>
-</div>
-<div id="Content" class="wrapper"> 
-<div class="countdown styled"></div> 
-<h2 class="intro">Our website is under construction. Stay tuned for something amazing!. Subscribe to be notified.</h2>
-<div id="subscribe"> 
-<!-- 	<form action="" method="post" onsubmit="">
-		<p><input name="" value="Enter your e-mail" type="text" id=""/>
-		<input type="button" value="Submit"/></p>
-	</form> -->
-	<div id="socialIcons">
-		<ul> 
-			<li><a href="" title="Twitter" class="twitterIcon"></a></li>
-			<li><a href="" title="facebook" class="facebookIcon"></a></li>
-			<li><a href="" title="linkedIn" class="linkedInIcon"></a></li>
-			<li><a href="" title="Pintrest" class="pintrestIcon"></a></li>
-		</ul>
-	</div>
-</div>
-<span class="tempBy">Template by: <a href="http://webthemez.com" alt="webthemez">WebThemez.com</a></span>
-</div>
+    <header class="site-header" id="top">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#main-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="logo-wrapper">
+                            <a class="navbar-brand" href="#">
+                               <img src="tales_static/images/TalesDesigns_logo1.png" width="250"/>
+                                <span class="logo-s"></span>
+                            </a>
+                        </div>  
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <span class="nav-s"></span>
+                            <li class="active"><a href="#top">Home</a></li>
+                            <li><a href="#product-inner">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#promotion">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+    </header>
 
-<div id="overlay"></div>
+    <div class="top-section">
+        <div class="container" id="bg">
+            <div class="row">
+                <div class="col-md-6">
+					 <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+						 <div class="carousel-inner" role="listbox">
+							 <div class="item active">
+								<img src="tales_static/images/banner1.png">
+							</div> 
+							<div class="item">
+								<img src="tales_static/images/banner2.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="tales_static/images/banner3.png" alt="...">
+							</div> 
+							 
+						</div>
+					</div>
+                    <!--<div class="image-holder">
+                        <img src="tales_static/images/1.png" alt="">
+                    </div>-->
+                </div>
+                <div class="col-md-6"><br>
+				 <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+						 <div class="carousel-inner" role="listbox">
+							 <div class="item active">
+								<h4>WEBSITE DESIGN</h4>
+                    <h3>CLEAN AND MINIMAL</h3>
+                    <h5>We design and build websites that fit the screens people use.</h5>
+					
+                    <p><b>Custom Design</b> We believe that every client is distinct, every project unique. Our style is clean, uncluttered, and steeped in the principals of design. What we lack in über-creativity is made up for in precision hierarchy.</p>
+                    <p><b>Responsive Design</b> Responsive Design is an art in understanding expectations at a variety of screens sizes.  We were early adopters of the technique, continue to push its bounds, and include it in every project we do.</p>
+							</div> 
+							<div class="item">
+					<h4>CONTENT STRATEGY</h4>
+                    <h5>The first step towards an authentic,<br> comprehensive website that does what’s its supposed to do.</h5>
+                    <p><b>Research</b> We need to understand your business, your customers, and your goals before we can solve your problems. Research is the cornerstone to creating a site that will perform to the highest level of expectation.</p>
+                    <p><b>Wireframes</b> are the bible from which we swear our oath. A guiding light for design, development, and content. Cumbersome and oft overwrought, they are simultaneously sledgehammer and scalpel.</p>
+                   
+							</div>
+							<div class="item">
+								<h4>Development</h4>
+								<h5>Development based on rock-solid open source platforms.</h5>
+								<p><b>Standards</b> We believe in coding up a site the right way. That means Standards. Yes, standards change which is why we strive to stay up on the latest. HTML5, CSS3, jQuery; Got it.</p>
+								<p><b>Front End</b> While we mostly build on WordPress, it’s not exclusive. We also develop for other platforms such as Ghost and Magento. We also do straight HTML5, CSS3, Git, and Sass.</p>
+								<p><b>HTML5, CSS3, JavaScript</b> We build on HTML5. It’s open source, rock solid, and easy for you to use. Our core template is built on Hybrid Core, the most forward thinking framework on the planet.</p>
+							</div> 
+							
+						</div>
+					</div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!--Scripts-->
-<script type="text/javascript" src="comingsoon/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="comingsoon/js/Backstretch.js"></script>
-<script type="text/javascript" src="comingsoon/js/jquery.countdown.js"></script>
-<script type="text/javascript" src="comingsoon/js/global.js"></script>
+    <div id="products">
+        <div class="container">
+            <div class="row" id="product-inner">
+                <div class="col-md-4 product-item text-center">
+                    <div class="image-holder">
+                        <img src="tales_static/images/4.png" alt="">
+                    </div>
+                    <h4>RESPONSIVE WEBSITE</h4>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="circle">
+                        <h3>WHATS NEW<br> FOR YOU?</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 product-item text-center">
+                    <div class="image-holder">
+                        <img src="tales_static/images/3.png" alt="">
+                    </div>
+                    <h4>CREATIVE DESIGN</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container" id="Grid">
+            <div class="row">
+                <div class="col-md-12 text-center title">
+                    <h2>OUR PORTFOLIO</h2>
+                    <span>WHAT WE HAVE DONE</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="filters">
+                        <li class="active filter" data-filter="all">All</li>
+                        <li class="filter" data-filter="responsive">Responsive</li>
+                        <li class="filter" data-filter="creative">Creative</li>
+                        <li class="filter" data-filter="illustration">Illustration</li>
+                        <li class="filter" data-filter="nature">Nature</li>
+                        <li class="filter" data-filter="graphic">Graphic</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mix responsive">
+                    <div class="work-item">
+                        <div class="image-holder">
+                            <img src="tales_static/images/gallery/1.jpg" alt="">
+                            <div class="overlay">
+                                <a href="tales_static/images/gallery/1.jpg" data-rel="lightbox">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h4>RESPONSIVE ONE</h4>
+                        <span>Responsive</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mix nature">
+                    <div class="work-item">
+                        <div class="image-holder">
+                            <img src="tales_static/images/gallery/2.jpg" alt="">
+                            <div class="overlay">
+                                <a href="tales_static/images/gallery/2.jpg" data-rel="lightbox">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h4>BUTTERFLY ONE</h4>
+                        <span>Nature</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mix creative illustration">
+                    <div class="work-item">
+                        <div class="image-holder">
+                            <img src="tales_static/images/gallery/3.jpg" alt="">
+                            <div class="overlay">
+                                <a href="tales_static/images/gallery/3.jpg" data-rel="lightbox">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h4>CREATIVE MIX ONE</h4>
+                        <span>Creative, Illustration</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mix graphic">
+                    <div class="work-item">
+                        <div class="image-holder">
+                            <img src="tales_static/images/gallery/4.jpg" alt="">
+                            <div class="overlay">
+                                <a href="tales_static/images/gallery/4.jpg" data-rel="lightbox">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h4>FIRST GRAPHIC</h4>
+                        <span>Graphic</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mix nature">
+                    <div class="work-item">
+                        <div class="image-holder">
+                            <img src="tales_static/images/gallery/5.jpg" alt="">
+                            <div class="overlay">
+                                <a href="tales_static/images/gallery/5.jpg" data-rel="lightbox">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h4>BUTTERFLY TWO</h4>
+                        <span>Nature</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mix graphic">
+                    <div class="work-item">
+                        <div class="image-holder">
+                            <img src="tales_static/images/gallery/6.jpg" alt="">
+                            <div class="overlay">
+                                <a href="tales_static/images/gallery/6.jpg" data-rel="lightbox">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h4>SECOND GRAPHIC</h4>
+                        <span>Graphic</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mix creative responsive">
+                    <div class="work-item">
+                        <div class="image-holder">
+                            <img src="tales_static/images/gallery/7.jpg" alt="">
+                            <div class="overlay">
+                                <a href="tales_static/images/gallery/7.jpg" data-rel="lightbox">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h4>RESPONSIVE CREATIVE</h4>
+                        <span>Responsive, Creative</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mix creative illustration">
+                    <div class="work-item">
+                        <div class="image-holder">
+                            <img src="tales_static/images/gallery/8.jpg" alt="">
+                            <div class="overlay">
+                                <a href="tales_static/images/gallery/8.jpg" data-rel="lightbox">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h4>CREATIVE MIX TWO</h4>
+                        <span>Creative, Illustration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bottom-section">
+        <div class="container" id="promotion">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-one text-center">
+                        <h1><em>TALES</em> DESIGN<em>S</em></h1>
+                        <div class="image-holder">
+                            <img src="tales_static/images/4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-one">
+                        <div class="title text-right">
+                            <h3>PROMOTION</h3>
+                            <span>THE BEST OFFER FROM US</span>
+                        </div>
+                        <div class="text-left">
+                            <h4>Web Design Services</h4>
+                            <ul>
+                                <li>Custom Design We believe that every client is distinct, every project unique.</li>
+                                <li>Standards We believe in coding up a site the right way. That means Standards. </li>
+                                <li>Responsive Design Responsive Design is an art in understanding expectations at a variety of screens sizes.</li>
+                                <li>Wireframes are the bible from which we swear our oath. A guiding light for design, development, and content. </li>
+                              
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+        
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <p>Privecy © 2015 Parul Advertising & Marketing  | Design <a href="www.talesdesigns.com">Tales Designs</a></p>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <ul class="social">
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="#" class="fa fa-google-plus"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="tales_static/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+    
+    <script src="tales_static/js/bootstrap.min.js"></script>
+    <script src="tales_static/js/plugins.js"></script>
+    <script src="tales_static/js/main.js"></script>    
+    
+
+   
 
 </body>
 </html>

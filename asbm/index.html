@@ -1,225 +1,275 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Asian School of Business Management</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<!--theme-style-->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
-<!--//theme-style-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="" />
+<html lang="en">
+    <head>
+        <title>Asian School of Business Management</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <script src= "js/jquery-1.10.2.min.js" type="text/javascript" ></script>
+        <script src= "js/bootstrap.min.js" type="text/javascript" ></script>
+        <style type="text/css">
+			body{background:#ddd;}
+			.hdr{
+				border-bottom:5px solid #034ea2;
+				border-top:2px solid #034ea2;
+				}
+			.rqt{border-top:1px solid #ccc;}
+            .frm {
+                float: right;
+                width: 280px;
+                height: 370px;
+				border-radius:5px;
+                background:rgba(255, 255, 255, 0.90);
+                margin:-380px 10px 0px 870px;
+                position:absolute;
+                color:#000;
+				border-bottom:5px solid #A73730;
+            }
+			
+			.panel-default > .panel-heading{color:#0C4EA2; font-size:20px;}
+         
+			.carousel-caption{background:rgba(0, 0, 0, 0.53); padding:10px; margin-left:-20%; width:34%; font-size:20px;}
+            .nav-tabs > li > a {
+                transition: all 0.9s ease 0s; 
+                font-weight: bold;
+                color:#fff;
+				background:#A73730;
+            }
+            .nav-tabs > li > a:hover {
+                background-color: #23236D;
+                color:#fff;
+            }
+			
+			
 
-<!--fonts-->
-<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
-<!--//fonts-->
-  <script src="js/responsiveslides.min.js"></script>
+              
+            .footer {
+                color:#fff;
+                width: 100%; 
+                height: 25px;
+                background: #212370; 
 
- 
-    
-<script>
-    // You can also use "$(window).load(function() {"
-    $(function () {
-      // Slideshow 1
-      $("#slider1").responsiveSlides({
-         auto: true,
-		 nav: true,
-		 speed: 500,
-		 namespace: "callbacks",
-      });
-         $("#slider2").responsiveSlides({
-         auto: true,
-		 nav: true,
-		 speed: 500,
-		 namespace: "callbacks",
-      });
-    });
-  </script>
-</head>
-<body> 
-<!--header-->
-<div class="slider">
-	    <ul class="rslides" id="slider1">
-	      <li><img src="images/banner2.jpg" alt=""></li>
-	      <li><img src="images/banner.jpg" alt=""></li>
-	      <li><img src="images/banner1.jpg" alt=""></li>
-	    </ul>
-    </div>
-<!---->
-    <!------->
-    <div class="frm">
-        <h4>Get In Touch With Us</h4>
-        <iframe src="form.html" width="300" height="350" frameborder="0"></iframe>
-    </div>
-    <!------->
-<div class="header-top">
-	<div class="container">
-     		<div class="clearfix"> </div>
-			<div class="bottom-header">
-     		 	<div class="logo">
-                 <img src="images/logo.jpg" />
-                 <img src="images/asbm.png" />
-     		 	</div>
-     		 	<div class="top-nav">
-				<!--<span class="menu"><img src="images/menu.png" alt=""> </span>-->
-                    <br />
-                    <h3>Admission Open For 2015 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-     		 	</div>
-     		 <div class="clearfix"> </div>
-     		</div>
-	</div>
-</div>
-<div class="content">
-<!---->
-<div class="container">
-	<div class="top-grid-top">
-		<div class="top-grids">				
-		
-			<div class="col-md-4 top-grid">
-				<h3>Welcome</h3>
-				<a><img class="img-responsive" src="images/pi.jpg" title="name" alt=""></a>
+                padding: 1px;
+            }
+
+            .col-md-8 img {margin:140px -92px 0px 0px;}
+
+            @media only screen and (max-width:680px) and (min-width:320px)
+            {
+                #hideme {
+                    display: none;
+                }
+
+                .carousel-caption {display:none;}
+
+              
+                .frm {
+                    float: left;
+                    width: 100%;
+                    height: 360px;
+                    background: #fff;
+					margin:0px;
+                }
+				iframe{width:310px;}
+                .col-md-8{margin-top:360px;}
+                .footer {
+                    color:#fff;
+                    width: 100%;
+                    background: #212370;
+                    height: 45px;
+                    margin-left:4px;
+                }
+				.col-md-4 img{width:100%;}
 				
-                <!----- -->
-             <div class="tab4">
-							<ul class="place">
-								<a class="read"><li>Read more</li></a>
-							</ul>
-						<p ><b>ASBM will shape itself as the school for the New Generation managers to instill in them power of positive thinking, exemplary speed of execution, insatiable desire for new information and knowledge, quest for adventure and a penchant for out of box thinking.</b></p>
-						<p >The school would crystallise the maturity and experience of its founder professionals in diverse fields, benchmark it with learning from the best b-school practices from around the world and offer through the most modern pedagogic practice, the best b-school education to mould the student managers to take on the challenges of India Inc.</p>
-                </div>
-               
+				
+            }
 
-                <!-------------->
-			</div>
-            
-			<div class="col-md-4 top-grid">
-                <h3>Why to choose ASBM?</h3>
-                <ul>
-                    <li>A++ Institution by Business India for 2011, 2012 & 2013</li>
-                    <li>Excellence in Education Award 2013 by the Competition Success Review</li>
-                    <li>Non IIM member institute of CAT</li>
-                    <li>Associate Member of XAT</li>
-                    <li>Approved institute of GMAT</li>
-                    <li>Accreditation/ Recognition of PGDM by NBA and AIU</li>
-                </ul>
-				<div class="tab2">
-							<ul class="place">
-								<a class="read"><li>Read more</li></a>
-							</ul>
-						<p>
-							<p><b>1 - Ninth institute in the country in the league of MDI, Gurgaon & XLRI etc. to have international accreditation of SAQS</b></p>
-							<p><b>2 - IIM model pedagogy, relative grading and open credit system</b></p>
-							<p><b>3 - Track record of excellent placement since inception</b></p>
-							<p><b>4 - Excellence in Education Award 2013 by the Competition Success Review</b></p>
-							<p><b>5 - Top Institute of India Award by Competition Success Review</b></p>
-						</p>
+        </style>
+      
+    </head>
+
+    <body>
+        <div class="container" style=" box-shadow: 0px 5px 5px #888888;background:#fff;">
+            <div class="row hdr">
+               
+				<div class="col-md-6">
+					<img src="images/logo.png" class="img-responsive"/>
+				</div>
+                <div id="hideme" align="right" class="col-md-6">
+                    <h3 align="right">Admission open 2015 Batch</h3>
                 </div>
-			</div>
-			<div class="col-md-4 top-grid" >
-				<h3>Vision & Quality Policy</h3>
-				<a><img class="img-responsive" src="images/pi2.jpg" title="name" alt="" ></a>
-				<div class="tab3">
-							<ul class="place">
-								<a class="read"><li>Read more</li></a>
-							</ul>
-						<p ><b>Vision</b></p>
-						<p >Asian School of Business Management will set best standards for management education and business leadership.</p>
-						<p><b>Quality Policy</b></p>
-						
-						<p>- High quality of academics</p>
-						<p>- Imparting peer reviewed world class education</p>
-						<p>- Technology enabled teaching &amp; learning</p>
-						<p>- Highly trained and motivated faculty resource</p>
-						<p>- Adherence to discipline and ethical conduct</p>
-						<p>- Equal opportunity for all-round learning</p>
-						<p>- Competitive &amp; collaborative spirit</p>
-						<p>- Constant learning from corporate leadership</p>
-						<p>- Constant 360Â° evaluation of quality</p>
-						<p>- Continuous improvement of processes and systems</p>
-						
+            </div>
+
+            <div class="row">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                      
+
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/banner2.jpg" alt="...">
+                          <div class="carousel-caption" >
+                                Adherence to discipline and ethical conduct
+                              </div>
+                        </div>
+                       
+                        <div class="item">
+                            <img src="images/banner1.jpg" alt="...">
+                            <div class="carousel-caption" >
+                                Constant 360° evaluation of quality
+                              </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/banner3.jpg" alt="...">
+                             <div class="carousel-caption" >
+                                Excellence in Education Award 2013 by the Competition Success Review
+                              </div>
+                        </div>
+
+                    </div>
+                </div><!--slide-->
+                <div class="frm">
+                        <h4 align="center">Get in touch with us</h4>
+                        <iframe src='form.html' width='280' height='380' frameborder='0'></iframe>
                 </div>
-			</div>
-            <div class="col-md-6 top-grid" >
-				<h3>ASBM Awards</h3>
-              
-                    <img src="images/awd1.jpg" />
-              
-			</div>
-            <div class="col-md-6 top-grid" >
-				<h3>Clientâ€™s Testimonials</h3>
-                <div class="slider">
-                     <ul class="rslides" id="slider2" style="padding:12px;">
-                         <li>
-                            <div class="col-sm-3"><img src="images/nandita.jpg"></div>
+            </div><hr />
+
+
+
+            <!--lower area-->
+            <div class="row" id="hideme">
+                <div class="col-md-7" style="font-size: 15px; font-family:'webfontregular', Calibri, Arial, Helvetica, sans-serif; text-align:justify;">
+				<div id="respo">
+
+                    <div role="tabpanel">
+
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"> Why to choose ASBM?</a></li>
+                            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Vision & Quality Policy</a></li>
+                            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">ASBM Awards</a></li>
+                            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">About ASBM</a></li>
+                            <!--<li role="presentation"><a href="#testimonial" aria-controls="testimonial" role="tab" data-toggle="tab">Testimonial </a></li>-->
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active" id="home">
+							<div class="panel panel-default">
+							<div class="panel-heading">Why Asian School of Business Management</div>		
+							<div class="panel-body">
+							
+								<ul>
+									<li>A++ Institution by Business India for 2011, 2012 &amp; 2013</li>
+									<li>Excellence in Education Award 2013 by the Competition Success Review</li>
+									<li>Non IIM member institute of CAT</li>
+									<li>Associate Member of XAT</li>
+									<li>Approved institute of GMAT</li>
+									<li>Ninth institute in the country in the league of MDI, Gurgaon &amp; XLRI etc. to have international accreditation of SAQS</li>
+									<li>Accreditation/ Recognition of PGDM by NBA and AIU</li>
+									<li>IIM model pedagogy, relative grading and open credit system</li>
+									<li>Track record of excellent placement since inception</li>
+									<li>Excellence in Education Award 2013 by the Competition Success Review</li>
+									<li>Top Institute of India Award by Competition Success Review</li>
+								</ul>
+							
+							</div>
+							</div>
+							</div>
+                            <div role="tabpanel" class="tab-pane fade" id="profile">
+							<div class="panel panel-default">
+							<div class="panel-heading">Vision</div>		
+							<div class="panel-body">
+								<p>Asian School of Business Management will set best standards for management education and business leadership.</p>
+
+								<b>Quality Policy</b>
+								<ul>
+								<li>High quality of academics</li>
+								<li>Imparting peer reviewed world class education</li>
+								<li>Technology enabled teaching & learning</li>
+								<li>Highly trained and motivated faculty resource</li>
+								<li>Adherence to discipline and ethical conduct</li>
+								<li>Equal opportunity for all-round learning</li>
+								<li>Competitive & collaborative spirit</li>
+								<li>Constant learning from corporate leadership</li>
+								<li>Constant 360° evaluation of quality</li>
+								<li>Continuous improvement of processes and systems</li>
+								</ul>
+							</div>
+							</div>
+							</div>
+                            <div role="tabpanel" class="tab-pane fade" id="messages">
+							<div class="panel panel-default">
+							<div class="panel-heading"> Awards</div>		
+							<div class="panel-body">
+							<p>ASBM is an autonomous institute in line with XLRI and MDI Gurgaon and has been duly approved and recognized by All India Council for Technical Education (AICTE), Ministry of HRD, Government of India. The Post Graduate Diploma in Management Programme (PGDM) is also accredited by National Board of Accreditation (NBA), Government of India and is equivalent to MBA by Association of Indian Universities (AIU).</p>
+							<div align="center"><img src="images/awd1.jpg" class="thumbnail"/></div>
+								
+							</div>
+							</div>
+							</div>
+                            <div role="tabpanel" class="tab-pane fade" id="settings">
+							<div class="panel panel-default">
+							<div class="panel-heading"> Asian School of Business Management</div>		
+							<div class="panel-body">
+							<p>ASBM will shape itself as the school for the New Generation managers to install in them power of positive thinking, exemplary speed of execution, insatiable desire for new information and knowledge, quest for adventure and a penchant for out of box thinking.</p>
+							<p>The school would crystallise the maturity and experience of its founder professionals in diverse fields, benchmark it with learning from the best b-school practices from around the world and offer through the most modern pedagogic practice, the best b-school education to mould the student managers to take on the challenges of India Inc.</p>
+							<p>ASBM holds many prestigious ranks and recognitions like; A++ institute by Business India, 19th position amongst the top institutes of India by Dainik Bhaskar Lakshya, Competition Success Reviews (CSR) Excellence in Education Award, and many more.  The institute has also been adjudged as one of the top 20 B-Schools of India by Deccan Herald and received the best B-School Award along with IIM Ahmedabad, IIM Lucknow, IIM Bangalore, IIM Kolkata, XLRI and MDI Gurgaon.</p>
+							</div>
+							</div>
+							</div>
+                           
+                        </div>
+
+                    </div>
+						<img src="images/top.jpg" class="thumbnail" />
+					</div>
+                </div>
+           
+  <!--lower area-->		
+					<div class="col-md-5">
+					<div class="panel panel-default">
+					<div align="center" class="panel-heading">Client's Testimonials</div>		
+					<div class="panel-body" style="font-size:14px; color:#484848; font-family:'webfontregular', Calibri, Arial, Helvetica, sans-serif; text-align:justify;">
+						
+                            <div class="col-sm-3"><img src="images/nandita.jpg" class="thumbnail" width="80" /></div>
                             <div class="col-sm-9">
                                 <h4>ICICI SECURITIES Management Trainee</h4>
-                                <p>"Nurturing talent is something which gives praise to an individual but talent requires exposure to know its                                      value. Their valuable insights in their field of expertise made my knowledge more refined and sound. This                                        valuable input helps me to grab a good opportunity in my future endeavour. I will be always grateful to asbm."                                 </p>
+                                <p>"Nurturing talent is something which gives praise to an individual but talent requires exposure to know its value. Their valuable insights in their field of expertise made my knowledge more refined and sound. This valuable input helps me to grab a good opportunity in my future endeavour. I will be always grateful to asbm."</p>
                                 <b>NANDITA DAS</b>
                             </div>
-                         </li>
-                          <li>
-                            <div class="col-sm-3"><img src="images/paldmolochan.jpg"></div>
+							
+                            <div class="col-sm-3"><img src="images/paldmolochan.jpg"  class="thumbnail" width="80"  /></div>
                             <div class="col-sm-9">
                                 <h4>ITC LTD Asst. Manager</h4>
-                            <p>"After studying two years, today I feel proud to be a part of ASBM- one of the premier institutes of Eastern                                     India. Itâ€™s beautiful campus, robust curriculum and vibrant faculty members make this institute unique of its kind.                               I am thankful to our Director Sir for giving me such an opportunity in making my dream come true."</p>
+                            <p>"After studying two years, today I feel proud to be a part of ASBM- one of the premier institutes of Eastern India. It's beautiful campus, robust curriculum and vibrant faculty members make this institute unique of its kind. I am thankful to our Director Sir for giving me such an opportunity in making my dream come true."</p>
                                 <b>PADMA LOCHAN SAHOO</b>
                             </div>
-                         </li>
-                    </ul>
-                      
-                </div>
-             
-			</div>
-            
-            <div class="col-md-12 top-grid" >
-                <hr />
-                <p align="center">Â© copyright 2014 ASBM. All Rights Reserved. || #8, Sai Anandam Complex, Patia Square, Patia, Bhubaneswar â€“ 751 024</p>
-            </div>
-			
-            <div class="clearfix"> </div>
-		</div>
-	</div>
-	<!---->
-    
-	</div>
-</div>
-    <!--script-->
-						<script>
-							$(document).ready(function(){
-								$(".tab1 p").hide();
-								$(".tab2 p").hide();
-								$(".tab3 p").hide();
-								$(".tab4 p").hide();
-								$(".tab1 ul").click(function(){
-									$(".tab1 p").slideToggle(300);
-									$(".tab2 p").hide();
-									$(".tab3 p").hide();
-									$(".tab4 p").hide();
-								})
-								$(".tab2 ul").click(function(){
-									$(".tab2 p").slideToggle(300);
-									$(".tab1 p").hide();
-									$(".tab3 p").hide();
-									$(".tab4 p").hide();
-								})
-								$(".tab3 ul").click(function(){
-									$(".tab3 p").slideToggle(300);
-									$(".tab4 p").hide();
-									$(".tab2 p").hide();
-									$(".tab1 p").hide();
-								})
-								$(".tab4 ul").click(function(){
-									$(".tab4 p").slideToggle(300);
-									$(".tab3 p").hide();
-									$(".tab2 p").hide();
-									$(".tab1 p").hide();
-								})	
-							});
-						</script>
-						<!-- script -->
-</body>
-</html>									
+					</div>
+					</div>	
+					</div>
+					<div class="col-md-12 rqt">
+						
+							<marquee onmouseover="stop();" onmouseout="start();">
+								<img src="images/logo1.jpg" />
+								<img src="images/logo2.jpg" />
+							</marquee>
+					</div>
+					<div class="col-md-12 rqt">
+						 <h6 align="center">© copyright 2014 ASBM. All Rights Reserved. || #8, Sai Anandam Complex, Patia Square, Patia, Bhubaneswar - 751 024</h6>
+					</div>
+			 </div><!----1st row---->
+  </div>
+  
+ 
+		
+       
+    </body>
+</html>

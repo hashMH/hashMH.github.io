@@ -1,0 +1,124 @@
+/* Name: Bridge School Landing Page
+Description: main css for all pages
+Version: 3.0
+Author: Bharat Bhardwaj, Dentsu Digital
+Web URI: http://www.dentsu.in
+008
+*/
+@charset "utf-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video{margin:0; padding:0; border:0; outline:0; vertical-align:baseline; background:transparent; font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:14px; color:#272727; line-height:18px; text-align:left;}article, aside, figure, footer, header, hgroup, nav, section, div{display:block;}
+body{background:url(../images/bg.jpg) repeat-x center top #a9a9a9;}
+ul, ol{margin-left:0px;}
+ul li{list-style:none;}
+ul li ul, ul li ol{margin-left:0px;}
+ul li ul li{list-style:disc;}
+iframe, img{border:0px;}
+a{text-decoration:none; outline:0;}
+a:hover, a.actv{-moz-transition:transition: color 0.5s linear;}
+.wrp{width:1000px; margin:0px auto;}
+.clr{clear:both; width:none;}
+aside.lft{float:left; margin:0px auto;}
+aside.rgt{float:right; margin:0px auto;}
+select{width:263px; height:32px; border:none; color:#a9a9a9; margin-bottom:15px;}
+input[type="checkbox"]{width:14px; height:14px; float:left; margin-left:0px; margin-right:7px;}
+h1{color:#F58220; font-size:24px; font-weight:bold; margin-bottom:15px; line-height:22px; text-transform:uppercase;}
+
+.tpPnl{}
+.tpPnl .logo{background:url(../images/logo.jpg) no-repeat left top; width:263px; height:100px; float:left;}
+.tpPnl .tgLine p{color:#2f2f2f; font-size:14px; text-align:right;}
+.tpPnl .tgLine p span{color:#2f2f2f; font-size:16px; text-transform:uppercase;}
+
+header{width:1000px; background:url(../images/tpBnr.jpg) no-repeat left top; height:537px; margin-top:-100px;}
+header .bnrTxt{width:716px; background:url(../images/plcmntImg.png) no-repeat right bottom; height:111px; padding-top:440px;}
+header .bnrTxt h1{width:355px; float:right; margin-top:25px;}
+header .frm{width:480px; height:380px; background:#fff; float:right; position:relative; border:1px solid #ccc; box-shadow:0px 0px 10px #ccc; top:70px;}
+header .frm h1{font-size:17px; background:#F58220; color:#FFF; padding:15px 0px; text-transform:uppercase; text-align:center; margin-bottom:10px;}
+header .frm p{float:left; color:#FFF; margin-top:1px; font-size:14px;}
+header .frm fieldset{width:315px; border:0px; margin-left:18px;}
+header .frm fieldset .flds{margin-bottom:0px;}
+header .frm fieldset label{color:#fff; font-size:12px; width:300px; display:block; margin-top:10px;}
+header .frm fieldset label input.btn{background-color:#219176; color:#fff; text-transform:uppercase; font-weight:bold; font-size:16px; width:170px;  height:41px; padding-top:8px; margin-top:10px; cursor:pointer!important}
+
+article.cntnt{margin-top:40px;}
+article.cntnt aside.lft{width:530px;}
+article.cntnt aside.lft p{font-size:16px;}
+
+article.prgrms{}
+article.prgrms ul{}
+article.prgrms ul li{font-size:16px; width:33%; float:left;}
+article.prgrms ul li span{font-size:16px; font-weight:bold;}
+article.prgrms ul li img{float:left; margin-right:10px; width:80px;}
+
+article.ftrTxt{margin-top:30px;}
+article.ftrTxt p{font-size:16px; font-weight:bold;}
+
+footer{width:100%; background:#9c9b9b; height:40px; margin-top:20px;}
+footer p{color:#fff; margin-top:12px;}
+footer aside.lft{margin-left:10px;}
+footer aside.rgt{margin-right:10px;}
+footer p span{color:#fff; font-size:11px;}
+
+article.thnku{margin-top:50px;}
+article.thnku h1{margin:30px 0px 10px 0px;}
+article.thnku h2{text-transform:uppercase; font-size:18px; margin-top:20px;}
+article.thnku h6{text-transform:uppercase; font-size:18px; text-decoration:underline; margin-top:40px;}
+article.thnku h6 a{color:#232323;}
+article.thnku img{float:left; margin-right:10px; margin-top:-20px;}
+article.thnku ul li{display:inline-block; margin-right:30px; font-size:18px; margin-top:40px;}
+article.thnku ul li a{color:#7f1f7f;}
+.tlk{margin-top:40px; padding-bottom:30px; border-top:solid 1px #b6b6b6;}
+
+@media only screen and (max-width: 768px) {
+body{ background:none; background-color:#ededed;}
+.wrp{width:480px;}
+
+.tpPnl .logo{background:url(../images/logo.jpg) no-repeat left top; width:263px; height:100px; float:left;}
+.tpPnl .tgLine{padding-top:20px;}
+.tpPnl .tgLine p{color:#2f2f2f; font-size:12px; text-align:right;}
+.tpPnl .tgLine p span{color:#2f2f2f; font-size:13px; text-transform:uppercase;}
+
+header{width:480px; background:url(../images/480/tpBnr.jpg) no-repeat left top; height:405px; margin-top:0px;}
+header .frm{width:470px;}
+header .bnrTxt{background:url(../images/480/txt.png) no-repeat left bottom; width:480px; height:74px; padding-top:333px;}
+header .frm fieldset{width:470px; margin-left:0px;}
+header .frm fieldset label{color:#fff; font-size:12px; width:212px; display:block;}
+header .frm fieldset label input.btn{background-color:#219176; color:#fff; text-transform:uppercase; font-weight:bold; font-size:16px; width:170px;  height:36px; padding-top:8px; margin-top:-22px; cursor:pointer!important}
+
+article.cntnt{position:absolute; top:750px;}
+article.cntnt aside.lft{width:470px;}
+
+article.prgrms{position:absolute; top:1040px;}
+article.prgrms ul li{font-size:16px; width:90%; float:left; margin-bottom:30px;}
+article.prgrms ul li img{float:none; display:block; text-align:center; margin:0px auto; margin-bottom:10px;}
+
+article.ftrTxt{position:absolute; top:1460px;}
+
+aside.rgt{float:left; margin-top:20px;}
+
+footer{width:100%; background:#9c9b9b; height:40px; margin-top:20px; position:absolute; top:1590px;}
+footer aside.rgt{margin-left:20px; margin-top:0px;}
+}
+
+@media only screen and (max-width: 470px) {
+body{ background:none; background-color:#ededed;}
+.wrp{width:320px;}
+
+.tpPnl .tgLine{display:none;}
+
+header{width:320px; background:url(../images/320/tpBnr.jpg) no-repeat left top; height:405px; margin-top:0px;}
+header .bnrTxt{background:url(../images/320/txt.png) no-repeat left bottom; width:320px; height:74px; padding-top:333px;}
+header .frm fieldset label input.btn{background-color:#219176; color:#fff; text-transform:uppercase; font-weight:bold; font-size:16px; width:170px;  height:36px; padding-top:8px; margin-top:8px; cursor:pointer!important}
+
+article.cntnt{position:absolute; top:720px; width:320px;}
+article.cntnt aside.lft{width:310px;}
+
+article.prgrms{position:absolute; top:1055px;}
+article.prgrms ul li{font-size:16px; width:90%; float:left; margin-bottom:30px;}
+
+article.ftrTxt{position:absolute; top:1505px;}
+
+aside.rgt{float:left; margin-top:20px;}
+
+footer{width:100%; background:#9c9b9b; height:40px; margin-top:20px; position:absolute; top:1645px;}
+footer aside.rgt{margin-left:20px; margin-top:0px; display:none;}
+}

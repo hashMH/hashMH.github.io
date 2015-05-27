@@ -1,0 +1,47 @@
+/* Name: Bridge School
+Date: Feb 2015
+Description: main css for all pages
+Version: 3.0
+Author: Bharat Bhardwaj, Dentsu Digital
+Web URI: http://www.dentsu.in
+008
+*/
+iframe, img{border:0px;}
+input{width:130px; background-color:#f9f9f9; padding:8px; color:#7a7a7a; margin-left:1%; margin-bottom:5px; border:solid 1px #939393; float:left;}
+select{height:34px; width:303px; background-color:#f9f9f9; padding:5px; margin-bottom:5px; border:solid 1px #939393; float:left; color:#a9a9a9; margin-left:1%;}
+input[type=text]:focus, textarea:focus {-webkit-transition: all 0.50s ease-in-out; -moz-transition: all 0.50s ease-in-out;  -ms-transition: all 0.50s ease-in-out; -o-transition: all 0.50s ease-in-out; outline: none; box-shadow: 0 0 2px #7e1e7d; border: 1px solid #7e1e7d;}
+.btn{background-color:#fff; color:#7e1e7d; text-transform:uppercase; font-weight:bold; font-size:16px; width: 163px; margin:0px auto; border:none; cursor:pointer; height:27px; padding-top:6px;margin-left:8px;}
+
+.rspnsFrm{width: 100%;text-align: center;margin: 0px auto;padding:10px;}
+section .frm h1{color:#6d0679; text-transform:uppercase; font-weight:bold; margin:13px; margin-bottom:5px; font-size:16px;}
+
+header .frm{width:355px;}
+.error{ font-size:11px; color:#ff0000; font-weight:normal; position: absolute; margin-left: 10px; background:#f9f9f9; top:4px; left:-5px}
+.flds { position:relative; float:left; margin-left:8px;}
+input.mbl{width:240px;}
+input.mail{width:285px;}
+input[type="checkbox"]{margin-top:12px;}
+
+@media screen and (max-width:768px) {
+	header .frm{width:480px; height:260px; position:absolute; top:507px;}
+    input{width:194px; padding:8px;}
+    header .frm fieldset{width:450px;}
+    select{width:212px;}
+    input[type="checkbox"] {margin-left:0px;}
+    input.mbl{width:149px;}
+input.mail{width:193px;}
+}
+
+@media screen and (max-width:480px) {
+
+header .frm{width:320px; height:360px; position:absolute; top:374px;}
+header .frm fieldset{width:310px; margin-left:0px;}
+input[type="checkbox"]{width:14px; height:14px; float:left; margin-left:2px; margin-right:7px; margin-top:9px;}
+header .frm fieldset label{width:300px;}
+input{width:290px; background-color:#f9f9f9; padding:5px; margin-left:1%; margin-bottom:5px; border:none; border:solid 1px #dde2e4; float:left;}
+select{width:300px;}
+input.txtname{width:135px;}
+input.mbl{width:250px;}
+ input.mail{width:290px;}
+
+}

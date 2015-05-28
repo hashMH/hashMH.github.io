@@ -24,7 +24,7 @@ input[type="checkbox"]{width:14px; height:14px; float:left; margin-left:0px; mar
 h1{color:#F58220; font-size:24px; font-weight:bold; margin-bottom:15px; line-height:22px; text-transform:uppercase;}
 
 .tpPnl{}
-.tpPnl .logo{background:url(../images/logo.jpg) no-repeat left top; width:263px; height:100px; float:left;}
+.tpPnl .logo{background:url(../images/logo.png) no-repeat left top; width:263px; height:100px; float:left;}
 .tpPnl .tgLine p{color:#2f2f2f; font-size:14px; text-align:right;}
 .tpPnl .tgLine p span{color:#2f2f2f; font-size:16px; text-transform:uppercase;}
 
@@ -47,7 +47,7 @@ article.prgrms{}
 article.prgrms ul{}
 article.prgrms ul li{font-size:16px; width:33%; float:left;}
 article.prgrms ul li span{font-size:16px; font-weight:bold;}
-article.prgrms ul li img{float:left; margin-right:10px; width:80px;}
+article.prgrms ul li img{float:left; margin-right:10px; width:80px; margin-top:-20px;}
 
 article.ftrTxt{margin-top:30px;}
 article.ftrTxt p{font-size:16px; font-weight:bold;}
@@ -102,23 +102,24 @@ footer aside.rgt{margin-left:20px; margin-top:0px;}
 @media only screen and (max-width: 470px) {
 body{ background:none; background-color:#ededed;}
 .wrp{width:320px;}
-
+.tpPnl .logo{margin-left:20%;}
 .tpPnl .tgLine{display:none;}
-
-header{width:320px; background:url(../images/320/tpBnr.jpg) no-repeat left top; height:405px; margin-top:0px;}
-header .bnrTxt{background:url(../images/320/txt.png) no-repeat left bottom; width:320px; height:74px; padding-top:333px;}
+iframe{width:100%;}
+.rgt{display:none;}
+header{background:url(../images/tpBnr480.jpg); width:100%; margin-top:0px; margin-bottom:-50px;}
+header .bnrTxt{background:url(../images/txt.png) no-repeat left bottom; width:320px; height:74px; padding-top:333px; display:none;}
 header .frm fieldset label input.btn{background-color:#219176; color:#fff; text-transform:uppercase; font-weight:bold; font-size:16px; width:170px;  height:36px; padding-top:8px; margin-top:8px; cursor:pointer!important}
 
 article.cntnt{position:absolute; top:720px; width:320px;}
 article.cntnt aside.lft{width:310px;}
 
-article.prgrms{position:absolute; top:1055px;}
+article.prgrms{position:absolute; top:932px;}
 article.prgrms ul li{font-size:16px; width:90%; float:left; margin-bottom:30px;}
 
-article.ftrTxt{position:absolute; top:1505px;}
+article.ftrTxt{position:absolute; top:1300px;}
 
 aside.rgt{float:left; margin-top:20px;}
 
-footer{width:100%; background:#9c9b9b; height:40px; margin-top:20px; position:absolute; top:1645px;}
+footer{width:100%; background:#9c9b9b; height:40px; margin-top:20px; position:absolute; top:1515px;}
 footer aside.rgt{margin-left:20px; margin-top:0px; display:none;}
 }
